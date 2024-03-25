@@ -184,17 +184,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Свадьюа Дмитрия и Вераники",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Sep 13, 2024 15:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Sep 14, 2024 02:00'),
 
             // Event Address
             address: 'ITC Fortune Park Hotel, Kolkata',
