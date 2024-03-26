@@ -100,6 +100,26 @@ section .header {
   color: #000;
 }
 
+.radio-button-position {
+  text-align: left;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 500;
+    margin: 5px;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+  input {
+    margin: 0.4rem;
+  }
+
+}
+
 .tooltip.in {
   filter: alpha(opacity=90);
   opacity: .9;
