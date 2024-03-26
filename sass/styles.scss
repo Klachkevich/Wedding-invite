@@ -10,6 +10,30 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Caravan";
+  src: url('../fonts/Caravan.otf');
+  src: url('../fonts/Caravan.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nozhik";
+  src: url('../fonts/Nozhik-Bold.otf');
+  src: url('../fonts/Nozhik-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Paint-Peel-Cyr";
+  src: url('../fonts/Paint-Peel-Cyr.ttf');
+  src: url('../fonts/Paint-Peel-Cyr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 // Imports
 //@import "compass";
@@ -85,7 +109,7 @@ section .header {
 }
 
 .my-font {
-  font-family:'Kurochkalapkoi';
+  font-family:'Paint-Peel-Cyr';
 }
 
 .event-date {
