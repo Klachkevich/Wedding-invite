@@ -55,11 +55,11 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
-                    <h3>
+                    <div class="font-title">
                         Weeding day
-                    </h3>
-                    <p class="my-font font-name">
-                        Дима и Вероника
+                    </div>
+                    <p class="font-name">
+                        Dima & Veranika
                     </p>
                     <img src="img/DV_hero-min.jpg">
                 </div>
@@ -71,8 +71,8 @@
 <section id="invitation">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>Приглашаем вас на нашу свадьбу</h3>
+            <div class="col-md-12 text-center invate-font">
+                Приглашаем вас на нашу свадьбу
             </div>
         </div>
     </div>
@@ -81,26 +81,26 @@
 <section id="intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">Дата</h3>
+            <div class="col-md-12 text-center date-font">
+                Date
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <p class="my-font event-date">
-                    13 сентября 2024
+                    13 september 2024
                 </p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">До свадьбы осталось</h3>
+            <div class="col-md-12 text-center SeeYouParty-20">
+                До свадьбы осталось
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header" id="timerToWedding"></h3>
+                <div class="timer-context" id="timerToWedding"></div>
             </div>
         </div>
     </div>
@@ -109,8 +109,8 @@
 <section class="events section-padding" id="events">
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">Timing</h3>
+            <div class="col-md-12 SeeYouParty-20">
+                Timing
             </div>
         </div>
         <div class="row">
@@ -183,21 +183,33 @@
     </div><!-- /.modal -->
 
 </section>
-<section id="video-bg" class="hidden-sm hidden-xs">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/D3eM0S1sLy8?si=_LsJXZl8YaXzzsj5',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
-    </div>
-    <div id="video-content">
-        <h5>Ганка</h5>
-    </div>
-</section>
 
-<section id="map" class="section-padding">
+<section class="section-padding">
     <div class="text-center">
-        <h3>Как добраться?</h3>
+        <h3>LOCATION</h3>
     </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h5>УСАДЬБА "ГАНКА"</h5>
+                <img class="img-place" src="img/ganka.jpg">
+                <p>Минская обл., Воложинский р-н, Эпимахи дер. 20</p>
+            </div>
+            <!-- <div class="col-md-6">
+                <h5>организатор Екатерина</h5>
+                <p><i class="fa fa-mobile"></i> <a href="tel://+375 44 701 6171">+375 44 701 6171</a><br>
+                    <i class="fa fa-mobile"></i> <a href="https://t.me/tiitovakaterina">https://t.me/tiitovakaterina</a></p>
+            </div> -->
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12" style="padding: 5px;">
+                <a class="btn btn-accent btn-small" target="_blank" href="https://yandex.by/maps/-/CDRJ4Soh"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+                    map</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                 <div class="text-center">
@@ -226,7 +238,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <section class="rsvp text-center" id="rsvp">
@@ -324,6 +336,24 @@
     </div>
 </section>
 
+
+<section class="section-padding">
+    <div class="text-center">
+        <h3>CONTACTS</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h5>По всем возникшим вопросам просьба обращаться к нашему свадебному организатору</h5>
+                <h5>Екатерина</h5>
+                <p><i class="fa fa-mobile"></i> <a href="tel://+375 44 701 6171">+375 44 701 6171</a><br>
+                    <i class="fa fa-mobile"></i> <a href="https://t.me/tiitovakaterina">https://t.me/tiitovakaterina</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 <footer>
     <div class="container">
         <div class="row">
@@ -342,8 +372,5 @@
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh2Z3NBU7u02sKRcLj41mxgH6SNdGiAho&callback=initMap">
-</script>
 </body>
 </html>

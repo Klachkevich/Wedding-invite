@@ -34,6 +34,69 @@
 }
 
 
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3963-6533-4639-b235-363431616535/Karlotte.woff') format('woff');
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3462-6431-4764-b132-333136343038/Betmo.woff') format('woff');
+  font-weight: 200;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3332-3536-4461-b537-336630623239/Felidae-Regular.woff2') format('woff2'),url('https://static.tildacdn.com/tild3562-6166-4630-b139-376361666165/Felidae.woff') format('woff');
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild6366-6434-4963-b832-303134623538/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3437-6436-4666-a666-623035323738/Caravan.woff') format('woff');
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3862-3766-4264-b133-383966656437/Autography.woff') format('woff');
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild6162-6439-4237-b537-663662336535/CormorantGaramond-Re.woff') format('woff');
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3436-3136-4664-b732-633235326166/ViaodaLibre-Regular.woff') format('woff');
+  font-weight: 800;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SeeYouParty';
+  src: url('https://static.tildacdn.com/tild3932-3264-4339-b966-633366323636/denistina_en.woff') format('woff');
+  font-weight: 900;
+  font-style: normal
+}
+
 
 // Imports
 //@import "compass";
@@ -109,19 +172,116 @@ section .header {
 }
 
 .my-font {
-  font-family:'Kurochkalapkoi';
+  font-family:'SeeYouParty', Arial, sans-serif;
 }
 
 .event-date {
-  font-size: 32px;
-  color: #000;
+  font-size: 52px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  background-position: center center;
+
 }
 
 .font-name {
+  font-family:'SeeYouParty', Arial, sans-serif;
   margin-top: 45px;
-  font-size: 120px;
-  line-height: 90px;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 1.1;
   color: #000;
+  padding: 0;
+  margin: 20px;
+}
+
+.font-title {
+  font-size: 16px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 30px;
+}
+
+.invate-font {
+  font-size: 18px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 30px;
+}
+
+.date-font {
+  font-size: 20px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 30px;
+}
+
+.SeeYouParty-20 {
+  font-size: 20px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.SeeYouParty-80 {
+  font-size: 80px;
+  font-family: 'SeeYouParty', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.timer-context {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  .timer-item{
+    flex-basis: 10%;
+    min-width: 100px;
+    .timer-value{
+      font-size: 80px;
+      font-family: 'SeeYouParty', Arial, sans-serif;
+      line-height: 1.55;
+      font-weight: 600;
+      text-transform: uppercase;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+    }
+
+    .timer-name{
+      font-size: 20px;
+      font-family: 'SeeYouParty', Arial, sans-serif;
+      line-height: 1.55;
+      font-weight: 400;
+      text-transform: uppercase;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+    }
+  }
 }
 
 .radio-button-position {
@@ -321,19 +481,12 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
-  // background: url('../img/DV_hero-min.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-  }*/
   .down-arrow a {
     color: $txt-light;
   }
@@ -347,11 +500,8 @@ Hero
     font-weight: 300;
     margin-bottom: 80px;
   }
-  .hero-content {
-    padding-top: 120px;
-  }
   .hero-content img {
-    width: 55%;
+    width: 40%;
   }
 }
 .navigation {
@@ -489,9 +639,11 @@ Features-stack
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  h3 {
-    margin: 0 0 20px 0;
-  }
+  // h3 {
+  //   font-family:'SeeYouParty', Arial, Helvetica, sans-serif;
+  //   font-weight: 400;
+  //   margin: 0 0 20px 0;
+  // }
   span.icon {
     font-size: 35px;
     color: $accent-color;
@@ -967,4 +1119,8 @@ body.modal-open {
 }
 .modal-body {
   padding:25px;
+}
+
+.img-place {
+  max-width: 350px;
 }
