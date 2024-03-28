@@ -259,7 +259,7 @@ section .header {
   flex-wrap: nowrap;
   .timer-item{
     flex-basis: 10%;
-    min-width: 100px;
+    //min-width: 100px;
     .timer-value{
       font-size: 80px;
       font-family: 'SeeYouParty', Arial, sans-serif;
