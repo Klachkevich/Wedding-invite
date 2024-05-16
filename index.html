@@ -116,29 +116,29 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="wp3">
-                    <p><strong>15:00 — Сбор гостей</strong></p>
+                    <p><strong>15:30 — Сбор гостей</strong></p>
                 </div>
                 <div class="wp5">
-                    <p><strong>16:00 — Регистрация</strong></p>
+                    <p><strong>16:30 — Регистрация</strong></p>
                 </div>
                 <div class="wp4">
-                    <p><strong>17:00 — Фотосессия</strong></p>
+                    <p><strong>17:00 — Банкет</strong></p>
                 </div>
-                <div class="wp6">
+                <!-- <div class="wp6">
                     <p><strong>18:00 — Пати</strong></p>
-                </div>
+                </div> -->
             </div>
         </div>
-        <div class="row section-padding">
+        <!-- <div class="row section-padding">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
                     <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
                 </a>
             </div>
-        </div>
+        </div> -->
     </div>
 
-    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+    <!-- <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -178,9 +178,9 @@
                         (band gala) waistcoat & shirt</a> combo.
                     </p>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+            </div>
+        </div>
+    </div>/ -->
 
 </section>
 
@@ -250,9 +250,8 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
-                        <div id="add-to-cal"></div>
+                        <h3>Спасибо!</h3>
+                        <p>Будем очень рады видеть Вас!</p>
                     </div>
                 </div>
             </div><!-- /.modal-content -->
@@ -263,14 +262,17 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>Будем очень рады видеть Вас!</h3>
-                <p>Просим подтвердить свое присутствие на торжестве до 31.08.2023</p>
+                <p>Просим подтвердить свое присутствие на торжестве до 13.08.2023</p>
+                <p class="ps-text"><span class="ps-span">PS.</span> Если вы захотите подарить нам букет живых цветов, вероятнее всего, мы не успеем насладиться их красотой. Лучше замените их бутылочкой вашего любимого напитка для нашей семейной коллекции.</p>
+                <p class="ps-text"><span class="ps-span">PS.</span> Мы очень хотим продлить это волнующее событие, поэтому непременно ждём Вас на второй день свадьбы в деревне Абрамовщина. Трансфер организуется после свадьбы.</p>
+                
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
+                                <i class="fa fa-user"></i><input name="имя" class=""
                                                                  placeholder="Ваше имя и фамилия"
                                                                  required>
                             </div>
@@ -278,27 +280,27 @@
                         
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
+                                <i class="fa fa-mobile-phone"></i><input type="tel" name="телефон" class=""
+                                                                     placeholder="Ваш телефон"
                                                                      required>
                             </div>
                         </div>
-             
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
+                                <i class="fa fa-users"></i><input type="number" name="количество_гостей" class="" min="0"
                                                                   max="10"
-                                                                  placeholder="Количество взрослых"
+                                                                  placeholder="Количество гостей"
                                                                   required>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
+                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="extrasChildren"
-                                                                class="" min="0"
-                                                                placeholder="Количество детей">
+                                
+                                <i class="fa fa-apple"></i><input type="text" name="особенности_питания"
+                                                                class=""
+                                                                placeholder="Особенности питания">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -308,9 +310,14 @@
                             <fieldset class="radio-button-position">
                                 <div>
                                   <input type="radio" id="huey" name="присутствовать" value="Смогу / сможем присутствовать" checked />
-                                  <label for="huey">Смогу / сможем присутствовать</label>
+                                  <label for="huey">Смогу / сможем присутствовать на оба дня</label>
                                 </div>
                               
+                                <div>
+                                    <input type="radio" id="yes" name="присутствовать" value="Смогу / сможем присутствовать" checked />
+                                    <label for="yes">Смогу / сможем присутствовать первый день</label>
+                                  </div>
+
                                 <div>
                                   <input type="radio" id="dewey" name="присутствовать" value="Затрудняюсь ответь, сообщу позже" />
                                   <label for="dewey">Затрудняюсь ответь, сообщу позже</label>
@@ -322,7 +329,7 @@
                                 </div>
                               </fieldset>
                               
-                        </div>
+                        </div>    
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
