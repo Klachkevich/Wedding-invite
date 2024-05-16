@@ -153,7 +153,7 @@ section .header {
   padding-bottom: 30px;
 }
 .section-padding {
-  padding: $section-padding;
+  padding-top: 20px;
 }
 .section-border {
   border-bottom: 1px solid $keyline-color;
@@ -629,6 +629,15 @@ Intro
   text-align: center;
 }
 
+.ps-text {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.ps-span {
+  font-weight: 400;
+}
+
 /* ==========================================================================
 Features-stack
 ========================================================================== */
@@ -1042,7 +1051,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, i.fa-mobile-phone, .fa-apple{
         font-size: 14px;
         position: absolute;
         top: 50%;
