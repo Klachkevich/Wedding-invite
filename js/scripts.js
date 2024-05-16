@@ -230,7 +230,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Свадьюа Дмитрия и Вераники",
+            title: "Свадьба Дмитрия и Вероники",
 
             // Event start date
             start: new Date('Sep 13, 2024 15:00'),
